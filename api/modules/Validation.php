@@ -45,11 +45,13 @@ class Validation
             if(!$new_model)
             {
                 $new_model = RecipientMobileLogin::getUserByCode($params[ApiParams::USER_CODE]);
-                if($new_model && $new_model->checkUserPassword($params[ApiParams::USER_PASSWORD]))
+                if($new_model && $new_model->checkUserPassword($params[ApiParams::USER_PASSWORD]) &&
+                $new_model->checkPhoneNumber($params[ApiParams::PHONE_NUMBER]))
                 {
-                    if($new_model->firstTimeCOnection())
+                    if($new_model->firstTimeConnection())
                     {
                         $new_model->setDeviceId($params[ApiParams::DEVICE_ID]);
+                        return $model;
                     }
                     else
                     {
@@ -94,7 +96,7 @@ class Validation
 
     public static function AuthorizedUserToResetThePassword($params)
     {
-        $model = ApiParams::checkRequiredParams($params, ApiParams::REQUIRED_RESTORE_PASSWORD_PARAMS);
+        $model = ApiParams::checkRequiredParams($params, ApiParams::$REQUIRED_RESTORE_PASSWORD_PARAMS);
         if ($model->errors)
         {
             return $model;

@@ -1,0 +1,21 @@
+{
+    "name": "yiicod/yii2-auth",
+    "description": "The simple auth(login,signup,forgot) with powerful extension for the Yii2 framework",
+    "type": "yii-extension",
+    "license": "New BSD License",
+    "authors": [
+        {
+            "name": "Alexey Orlov",
+            "email": "aaorlov88@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "yiicod/yii2-base": "*"
+    },    
+    "autoload": {
+        "psr-4": {
+            "yiicod\\auth\\": ""
+        }
+    }
+}

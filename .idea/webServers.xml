@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="9c5829cd-850b-4cbe-9aca-7de17e112d6a" name="Highnet" url="http://ec2-52-18-138-162.eu-west-1.compute.amazonaws.com">
+        <fileTransfer host="http://ec2-52-18-138-162.eu-west-1.compute.amazonaws.com" port="22" privateKey="C:\Users\Administrator\Documents\keys\15052014_develope_server" accessType="SFTP" username="ubuntu" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

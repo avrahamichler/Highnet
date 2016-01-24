@@ -113,7 +113,8 @@ class RecipientMobileLogin extends \yii\db\ActiveRecord
 
     public function setDeviceID($device_id)
     {
-        $this->dvice_id = $device_id;
+        $this->device_id = $device_id;
+        $this->save();
     }
 
     public function checkAnswer($questions, $answer){

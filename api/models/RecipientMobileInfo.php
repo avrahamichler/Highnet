@@ -3,7 +3,7 @@
 namespace api\models;
 
 use api\components\Utils;
-use api\modules\v4\ApiParams;
+use api\modules\ApiParams;
 use SplEnum;
 use Yii;
 use yii\base\Exception;

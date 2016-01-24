@@ -3,8 +3,8 @@
 namespace api\models;
 
 use api\components\Utils;
-use api\modules\v4\ApiParams;
-use api\modules\v4\Validation;
+use api\modules\ApiParams;
+use api\modules\Validation;
 use Yii;
 use yii\db\ActiveRecord;
 use api\models\RecipientMobileLogin;
