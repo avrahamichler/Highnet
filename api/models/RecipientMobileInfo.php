@@ -70,7 +70,6 @@ class RecipientMobileInfo extends \yii\db\ActiveRecord
         ];
     }
 
-    /* @var $model RecipientMobileLogin */
 
     public static function setNewRecipientInfo($model, $info_type, $params)
     {
@@ -95,9 +94,9 @@ class RecipientMobileInfo extends \yii\db\ActiveRecord
         {
             return $e;
         }
-
-
     }
+
+
 }
 
 

@@ -10,8 +10,8 @@ namespace api\controllers;
 
 
 use api\components\Utils;
-use api\ApiParams;
-use api\Validation;
+use api\modules\ApiParams;
+use api\modules\Validation;
 use Yii;
 use yii\filters\VerbFilter;
 use yii\rest\Controller;
@@ -56,15 +56,11 @@ class TicketController extends Controller
     {
         $params = ApiParams::getPostJsonParams();
 
-        $required_params = ['deviceID', 'authKey'];
-
-        $params_to_check = ['authKey'];
-
-        $model = Validation::checkUserParams($params, $required_params, $params_to_check);
+        $model = Validation::checkUserAuthorization($params);
 
         if ($model->errors)
         {
-            Utils::echoErrorResponse($model->errors);
+            Utils::echoErrorResponse($model->getFirstErrors());
         }
         else
         {

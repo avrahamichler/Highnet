@@ -23,9 +23,11 @@ class Validation
 
     const DEVICE_ID_ERROR_MESSAGE = "Unauthorized device";
     const AUTH_KEY_ERROR_MESSAGE = "Bad authKey";
-    const USER_PASSWORD_ERROR_MESSAGE = "Bad username or password";
+    const USER_PASSWORD_ERROR_MESSAGE = "Bad password";
+    const USER_NAME_ERROR_MESSAGE = "Bad username";
     const PHONE_NUMBER_ERROR_MESSAGE = "Unauthorized number";
     const USER_LOGIN_ERROR_MESSAGE = "this user name not exist";
+    const OID_ERROR_MESSAGE ="no clint message with this oid";
 
 
 
@@ -45,8 +47,7 @@ class Validation
             if(!$new_model)
             {
                 $new_model = RecipientMobileLogin::getUserByCode($params[ApiParams::USER_CODE]);
-                if($new_model && $new_model->checkUserPassword($params[ApiParams::USER_PASSWORD]) &&
-                $new_model->checkPhoneNumber($params[ApiParams::PHONE_NUMBER]))
+                if($new_model && $new_model->checkUserPassword($params[ApiParams::USER_PASSWORD]))
                 {
                     if($new_model->firstTimeConnection())
                     {
@@ -78,13 +79,13 @@ class Validation
 
     public static function checkloginParams($model, $params, $restore = false)
     {
-        if(!$model->checkPhoneNumber($params[ApiParams::PHONE_NUMBER]))
+//        if(!$model->checkPhoneNumber($params[ApiParams::PHONE_NUMBER]))
+//        {
+//            $model->addError($model::PHONE_NUMBER, $error = self::PHONE_NUMBER_ERROR_MESSAGE);
+//        }
+        if(!$model->checkUserLogin($params[ApiParams::USER_CODE]))
         {
-            $model->addError($model::PHONE_NUMBER, $error = self::PHONE_NUMBER_ERROR_MESSAGE);
-        }
-        elseif(!$model->checkUserLogin($params[ApiParams::USER_CODE]))
-        {
-            $model->addError($model::RECIPIENT_CODE, $error = self::USER_PASSWORD_ERROR_MESSAGE);
+            $model->addError($model::RECIPIENT_CODE, $error = self::USER_NAME_ERROR_MESSAGE);
         }
         elseif(!$restore && !$model->checkUserPassword($params[ApiParams::USER_PASSWORD]))
         {
@@ -103,14 +104,15 @@ class Validation
         }
         else
         {
-            $model = RecipientMobileLogin::getUserByDeviceID($params[ApiParams::DEVICE_ID]);
-            if(!$model)
+            $new_model = RecipientMobileLogin::getUserByDeviceID($params[ApiParams::DEVICE_ID]);
+            if(!$new_model)
             {
                 $model->addError(RecipientMobileLogin::DEVICE_ID, $error = self::DEVICE_ID_ERROR_MESSAGE);
+                return $model;
             }
             else
             {
-                $model = self::checkloginParams($model, $params, true);
+                $model = self::checkloginParams($new_model, $params, true);
             }
             return $model;
 
@@ -120,7 +122,7 @@ class Validation
 
     public static function checkUserAuthorization($params)
     {
-        $model = ApiParams::checkRequiredParams($params, ApiParams::AUTHORIZATION_PARAMS);
+        $model = ApiParams::checkRequiredParams($params, ApiParams::$AUTHORIZATION_PARAMS);
         if ($model->errors)
         {
             return $model;
@@ -133,23 +135,23 @@ class Validation
 
     }
 
-    /**
-     * @param $params
-     * @return RecipientMobileHeartbeat
-     */
+
     private static function thisUserIsLogin($device_id, $auth_key)
     {
         $model = new RecipientMobileHeartbeat();
-        if(!$model->getUserByDeviceId($device_id))
+        if(!$model = $model->getUserByDeviceId($device_id))
         {
-            $model->addError([RecipientMobileHeartbeat::DEVICE_ID, $error = self::DEVICE_ID_ERROR_MESSAGE]);
+            $model->addError(RecipientMobileHeartbeat::DEVICE_ID, $error = self::DEVICE_ID_ERROR_MESSAGE);
+
         }
         elseif(!$model->checkAuthorization($auth_key))
         {
-            $model->addError([RecipientMobileHeartbeat::AUTH_KEY, $error = self::AUTH_KEY_ERROR_MESSAGE]);
+            $model->addError(RecipientMobileHeartbeat::AUTH_KEY, $error = self::AUTH_KEY_ERROR_MESSAGE);
+
         }
         return $model;
     }
+
 
     public static function checkParams($params, $require_params)
     {
@@ -165,70 +167,27 @@ class Validation
         }
     }
 
-//    public static function checkCorrectParam($model, $params)
-//    {
-//        foreach($params as $key=>$value)
-//        {
-//            $func_name = 'check'.$key;
-//            $constname = self::camelCaseToUnderscore($key);
-//
-//            if(!$model->$func_name($value))
-//            {
-//                $model->addErrors([$key => (string)constant('self::'.$constname)]);
-//                return $model;
-//            }
-//        }
-//        return $model;
-//
-//    }
-
-//    public static function checkUserLoginParams($params, $required_params, $params_to_check)
-//    {
-//        $missing_parameters = self::allTheRequiredParametersAre($params, $required_params);
-//
-//        $model = new RecipientMobileLogin();
-//
-//        if($missing_parameters)
-//        {
-//            $model->addError("this parameters are missing " ,$error = implode(", ",$missing_parameters));
-//            return $model;
-//        }
-//        else
-//        {
-//
-//            $new_model = RecipientMobileLogin::getUserByDeviceID($params['deviceID']);
-//
-//            if(!$new_model)
-//            {
-//                var_dump($model->device_id);
-//                $model->addError("deviceID", $error = "Unauthorized device");
-//                return $model;
-//                if(isset($params['firstTime']) && $params['firstTime'])
-//                {
-//                    $new_model = RecipientMobileLogin::getUserByCode($params['userLogin']);
-//                    if($new_model)
-//                    {
-//                        $new_model->setDeviceId($params['deviceID']);
-//                    }
-//                }
-//                else
-//                {
-//                    $model->addError("deviceID", $error = "Unauthorized device");
-//                    return $model;
-//                }
-//            }
-//            else
-//            {
-//                $model = $new_model;
-//
-//                $params_to_check = self::paramsToCheck($params, $params_to_check);
-//
-//                $model = self::checkCorrectParam($model, $params_to_check);
-//
-//                return $model;
-//            }
-//        }
-//    }
+    public static function checkParamsAndGetMessage($params, $require_params)
+    {
+        $model = ApiParams::checkRequiredParams($params, $require_params);
+        if($model->errors)
+        {
+            return $model;
+        }
+        else
+        {
+            $model = self::thisUserIsLogin($params[ApiParams::DEVICE_ID], $params[ApiParams::AUTH_KEY]);
+            if($model->errors)
+            {
+                return $model;
+            }
+            else
+            {
+                $message = Validation::checkMessage($params['cmsgOID']);
+                return $message;
+            }
+        }
+    }
 
 
 
@@ -238,7 +197,7 @@ class Validation
         $message = ClientMessages::findOne(["oid" => $cmsgOID]);
         if(!$message)
         {
-            $message->addError("cmoid", $error = "no clint message with this oid");
+            $message->addError("cmoid", $error = self::OID_ERROR_MESSAGE);
         }
         return $message;
     }

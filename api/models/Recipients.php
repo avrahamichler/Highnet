@@ -7,6 +7,7 @@ use Yii;
 /**
  * This is the model class for table "recipients".
  *
+ * @property int $oid
  * @property string $code
  * @property string $name
  * @property boolean $is_use_logic
@@ -48,6 +49,14 @@ class Recipients extends \yii\db\ActiveRecord
     }
 
     /**
+     * @return string
+     */
+    public static function primaryKey()
+    {
+        return ['oid'];
+    }
+
+    /**
      * @inheritdoc
      */
     public function rules()
@@ -72,6 +81,7 @@ class Recipients extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
+            'oid' =>'Oid',
             'code' => 'Code',
             'name' => 'Name',
             'is_use_logic' => 'Is Use Logic',
@@ -103,5 +113,6 @@ class Recipients extends \yii\db\ActiveRecord
             'recipient_pass' => 'Recipient Pass',
         ];
     }
+
 
 }

@@ -1058,5 +1058,43 @@
             }
         ],
         "description": "The simple auth(login,signup,forgot) with powerful extension for the Yii2 framework"
+    },
+    {
+        "name": "vertigolabs/overcast",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/jaimz22/Overcast.git",
+            "reference": "35cefe6a6c4725946ca272660cd49623ffff052f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/jaimz22/Overcast/zipball/35cefe6a6c4725946ca272660cd49623ffff052f",
+            "reference": "35cefe6a6c4725946ca272660cd49623ffff052f",
+            "shasum": ""
+        },
+        "suggest": {
+            "guzzlehttp/guzzle": "Allows for better handling of http connections to Forecast.io webservice"
+        },
+        "time": "2016-01-17 15:49:35",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "VertigoLabs\\Overcast\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "James Murray",
+                "email": "jaimz@vertigolabs.org"
+            }
+        ],
+        "description": "An easy to use wrapper for the Forecast.io API"
     }
 ]

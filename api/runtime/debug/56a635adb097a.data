@@ -1,0 +1,1081 @@
+a:8:{s:6:"config";a:5:{s:10:"phpVersion";s:6:"5.6.17";s:10:"yiiVersion";s:5:"2.0.6";s:11:"application";a:4:{s:3:"yii";s:5:"2.0.6";s:4:"name";s:14:"My Application";s:3:"env";s:3:"dev";s:5:"debug";b:1;}s:3:"php";a:4:{s:7:"version";s:6:"5.6.17";s:6:"xdebug";b:1;s:3:"apc";b:0;s:8:"memcache";b:0;}s:10:"extensions";a:7:{s:24:"yiisoft/yii2-swiftmailer";a:3:{s:4:"name";s:24:"yiisoft/yii2-swiftmailer";s:7:"version";s:7:"2.0.4.0";s:5:"alias";a:1:{s:16:"@yii/swiftmailer";s:93:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\vendor/yiisoft/yii2-swiftmailer";}}s:24:"yiisoft/yii2-codeception";a:3:{s:4:"name";s:24:"yiisoft/yii2-codeception";s:7:"version";s:7:"2.0.4.0";s:5:"alias";a:1:{s:16:"@yii/codeception";s:93:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\vendor/yiisoft/yii2-codeception";}}s:22:"yiisoft/yii2-bootstrap";a:3:{s:4:"name";s:22:"yiisoft/yii2-bootstrap";s:7:"version";s:7:"2.0.5.0";s:5:"alias";a:1:{s:14:"@yii/bootstrap";s:91:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\vendor/yiisoft/yii2-bootstrap";}}s:18:"yiisoft/yii2-debug";a:3:{s:4:"name";s:18:"yiisoft/yii2-debug";s:7:"version";s:7:"2.0.5.0";s:5:"alias";a:1:{s:10:"@yii/debug";s:87:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\vendor/yiisoft/yii2-debug";}}s:16:"yiisoft/yii2-gii";a:3:{s:4:"name";s:16:"yiisoft/yii2-gii";s:7:"version";s:7:"2.0.4.0";s:5:"alias";a:1:{s:8:"@yii/gii";s:85:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\vendor/yiisoft/yii2-gii";}}s:18:"yiisoft/yii2-faker";a:3:{s:4:"name";s:18:"yiisoft/yii2-faker";s:7:"version";s:7:"2.0.3.0";s:5:"alias";a:1:{s:10:"@yii/faker";s:87:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\vendor/yiisoft/yii2-faker";}}s:18:"abhi1693/yii2-enum";a:3:{s:4:"name";s:18:"abhi1693/yii2-enum";s:7:"version";s:7:"1.0.0.0";s:5:"alias";a:1:{s:15:"@abhimanyu/enum";s:87:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\vendor/abhi1693/yii2-enum";}}}}s:7:"request";a:14:{s:7:"flashes";a:0:{}s:10:"statusCode";i:200;s:14:"requestHeaders";a:6:{s:10:"user-agent";s:61:"Dalvik/2.1.0 (Linux; U; Android 5.0.2; LG-H525n Build/LRX22G)";s:4:"host";s:13:"192.168.37.10";s:10:"connection";s:10:"Keep-Alive";s:15:"accept-encoding";s:4:"gzip";s:12:"content-type";s:33:"application/x-www-form-urlencoded";s:14:"content-length";s:2:"75";}s:15:"responseHeaders";a:2:{s:12:"X-Powered-By";s:23:"Ravtech <ravtech.co.il>";s:12:"Content-Type";s:24:"text/html; charset=UTF-8";}s:5:"route";s:20:"recipient/user-login";s:6:"action";s:54:"api\controllers\RecipientController::actionUserLogin()";s:12:"actionParams";a:0:{}s:11:"requestBody";a:3:{s:12:"Content Type";s:33:"application/x-www-form-urlencoded";s:3:"Raw";s:75:"{"userLogin":"avi","deviceID":1,"userPassword":"password","phoneNumber":""}";s:17:"Decoded to Params";a:1:{s:75:"{"userLogin":"avi","deviceID":1,"userPassword":"password","phoneNumber":""}";s:0:"";}}s:6:"SERVER";a:36:{s:3:"TMP";s:62:"C:/Program Files (x86)/EasyPHP-Devserver-16.1/eds-binaries/tmp";s:15:"HTTP_USER_AGENT";s:61:"Dalvik/2.1.0 (Linux; U; Android 5.0.2; LG-H525n Build/LRX22G)";s:9:"HTTP_HOST";s:13:"192.168.37.10";s:15:"HTTP_CONNECTION";s:10:"Keep-Alive";s:20:"HTTP_ACCEPT_ENCODING";s:4:"gzip";s:12:"CONTENT_TYPE";s:33:"application/x-www-form-urlencoded";s:14:"CONTENT_LENGTH";s:2:"75";s:4:"PATH";s:921:"C:\Program Files (x86)\EasyPHP-DevServer-14.1VC9\binaries\php\php_runningversion;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\TortoiseGit\bin;C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-binaries\php\php5617x160120140103;C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-binaries\php\php5617x160120152246\;C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-binaries\php\php5617x160121131045;C:\ProgramData\ComposerSetup\bin;C:\Program Files\PostgreSQL\9.5\lib";s:10:"SystemRoot";s:10:"C:\Windows";s:7:"COMSPEC";s:27:"C:\Windows\system32\cmd.exe";s:7:"PATHEXT";s:57:".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY";s:6:"WINDIR";s:10:"C:\Windows";s:16:"SERVER_SIGNATURE";s:0:"";s:15:"SERVER_SOFTWARE";s:32:"Apache/2.4.18 (Win32) PHP/5.6.17";s:11:"SERVER_NAME";s:13:"192.168.37.10";s:11:"SERVER_ADDR";s:13:"192.168.37.10";s:11:"SERVER_PORT";s:2:"80";s:11:"REMOTE_ADDR";s:13:"192.168.37.18";s:13:"DOCUMENT_ROOT";s:53:"C:/Program Files (x86)/EasyPHP-Devserver-16.1/eds-www";s:14:"REQUEST_SCHEME";s:4:"http";s:14:"CONTEXT_PREFIX";s:0:"";s:21:"CONTEXT_DOCUMENT_ROOT";s:53:"C:/Program Files (x86)/EasyPHP-Devserver-16.1/eds-www";s:12:"SERVER_ADMIN";s:17:"admin@example.com";s:15:"SCRIPT_FILENAME";s:79:"C:/Program Files (x86)/EasyPHP-Devserver-16.1/eds-www/Highnet/api/web/index.php";s:11:"REMOTE_PORT";s:5:"36844";s:17:"GATEWAY_INTERFACE";s:7:"CGI/1.1";s:15:"SERVER_PROTOCOL";s:8:"HTTP/1.1";s:14:"REQUEST_METHOD";s:4:"POST";s:12:"QUERY_STRING";s:0:"";s:11:"REQUEST_URI";s:47:"/Highnet/api/web/index.php/recipient/user-login";s:11:"SCRIPT_NAME";s:26:"/Highnet/api/web/index.php";s:9:"PATH_INFO";s:21:"/recipient/user-login";s:15:"PATH_TRANSLATED";s:74:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\recipient\user-login";s:8:"PHP_SELF";s:47:"/Highnet/api/web/index.php/recipient/user-login";s:18:"REQUEST_TIME_FLOAT";d:1453733293.697;s:12:"REQUEST_TIME";i:1453733293;}s:3:"GET";a:0:{}s:4:"POST";a:1:{s:75:"{"userLogin":"avi","deviceID":1,"userPassword":"password","phoneNumber":""}";s:0:"";}s:6:"COOKIE";a:0:{}s:5:"FILES";a:0:{}s:7:"SESSION";a:0:{}}s:3:"log";a:1:{s:8:"messages";a:21:{i:0;a:5:{i:0;s:33:"Bootstrap with yii\log\Dispatcher";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1453733293.715507;i:4;a:0:{}}i:1;a:5:{i:0;s:21:"Loading module: debug";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1453733293.7156019;i:4;a:0:{}}i:2;a:5:{i:0;s:44:"Bootstrap with yii\debug\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1453733293.7227559;i:4;a:0:{}}i:3;a:5:{i:0;s:19:"Loading module: gii";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1453733293.7251689;i:4;a:0:{}}i:4;a:5:{i:0;s:42:"Bootstrap with yii\gii\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1453733293.7258279;i:4;a:0:{}}i:5;a:5:{i:0;s:55:"No matching URL rules. Using default URL parsing logic.";i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1453733293.7279551;i:4;a:0:{}}i:6;a:5:{i:0;s:39:"Route requested: 'recipient/user-login'";i:1;i:8;i:2;s:34:"yii\web\Application::handleRequest";i:3;d:1453733293.72802;i:4;a:0:{}}i:7;a:5:{i:0;s:34:"Route to run: recipient/user-login";i:1;i:8;i:2;s:30:"yii\base\Controller::runAction";i:3;d:1453733293.7305341;i:4;a:0:{}}i:8;a:5:{i:0;s:70:"Running action: api\controllers\RecipientController::actionUserLogin()";i:1;i:8;i:2;s:36:"yii\base\InlineAction::runWithParams";i:3;d:1453733293.731498;i:4;a:0:{}}i:9;a:5:{i:0;s:58:"SELECT * FROM "recipient_mobile_login" WHERE "device_id"=1";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1453733293.7466969;i:4;a:3:{i:0;a:5:{s:4:"file";s:97:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\models\RecipientMobileLogin.php";s:4:"line";i:79;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:88:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\modules\Validation.php";s:4:"line";i:45;s:8:"function";s:17:"getUserByDeviceID";s:5:"class";s:31:"api\models\RecipientMobileLogin";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\controllers\RecipientController.php";s:4:"line";i:83;s:8:"function";s:21:"TheUserLoginCorrectly";s:5:"class";s:22:"api\modules\Validation";s:4:"type";s:2:"::";}}}i:10;a:5:{i:0;s:68:"Opening DB connection: pgsql:host=192.168.44.55;port=5432;dbname=sns";i:1;i:4;i:2;s:23:"yii\db\Connection::open";i:3;d:1453733293.7468431;i:4;a:3:{i:0;a:5:{s:4:"file";s:97:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\models\RecipientMobileLogin.php";s:4:"line";i:79;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:88:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\modules\Validation.php";s:4:"line";i:45;s:8:"function";s:17:"getUserByDeviceID";s:5:"class";s:31:"api\models\RecipientMobileLogin";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\controllers\RecipientController.php";s:4:"line";i:83;s:8:"function";s:21:"TheUserLoginCorrectly";s:5:"class";s:22:"api\modules\Validation";s:4:"type";s:2:"::";}}}i:15;a:5:{i:0;s:1968:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    t.typname AS data_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    array_to_string((select array_agg(enumlabel) from pg_enum where enumtypid=a.atttypid)::varchar[],',') as enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT join pg_constraint ct on ct.conrelid=c.oid and ct.contype='p'
+WHERE
+    a.attnum > 0 and t.typname != ''
+    and c.relname = 'recipient_mobile_login'
+    and d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1453733293.848444;i:4;a:3:{i:0;a:5:{s:4:"file";s:97:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\models\RecipientMobileLogin.php";s:4:"line";i:79;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:88:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\modules\Validation.php";s:4:"line";i:45;s:8:"function";s:17:"getUserByDeviceID";s:5:"class";s:31:"api\models\RecipientMobileLogin";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\controllers\RecipientController.php";s:4:"line";i:83;s:8:"function";s:21:"TheUserLoginCorrectly";s:5:"class";s:22:"api\modules\Validation";s:4:"type";s:2:"::";}}}i:18;a:5:{i:0;s:890:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='recipient_mobile_login'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1453733293.903074;i:4;a:3:{i:0;a:5:{s:4:"file";s:97:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\models\RecipientMobileLogin.php";s:4:"line";i:79;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:88:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\modules\Validation.php";s:4:"line";i:45;s:8:"function";s:17:"getUserByDeviceID";s:5:"class";s:31:"api\models\RecipientMobileLogin";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\controllers\RecipientController.php";s:4:"line";i:83;s:8:"function";s:21:"TheUserLoginCorrectly";s:5:"class";s:22:"api\modules\Validation";s:4:"type";s:2:"::";}}}i:21;a:5:{i:0;s:92:"SELECT * FROM "recipient_mobile_info" WHERE ("recipient_mobile_index"=2) AND ("info_type"=1)";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1453733293.9538569;i:4;a:1:{i:0;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\controllers\RecipientController.php";s:4:"line";i:95;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:24;a:5:{i:0;s:1967:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    t.typname AS data_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    array_to_string((select array_agg(enumlabel) from pg_enum where enumtypid=a.atttypid)::varchar[],',') as enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT join pg_constraint ct on ct.conrelid=c.oid and ct.contype='p'
+WHERE
+    a.attnum > 0 and t.typname != ''
+    and c.relname = 'recipient_mobile_info'
+    and d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1453733293.9971969;i:4;a:1:{i:0;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\controllers\RecipientController.php";s:4:"line";i:95;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:27;a:5:{i:0;s:889:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='recipient_mobile_info'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1453733294.0402939;i:4;a:1:{i:0;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\controllers\RecipientController.php";s:4:"line";i:95;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:30;a:5:{i:0;s:144:"INSERT INTO "recipient_mobile_info" ("recipient_mobile_index", "info_type", "occured_at") VALUES (2, 1, '2016-01-25 14:48:14') RETURNING "index"";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1453733294.084023;i:4;a:2:{i:0;a:5:{s:4:"file";s:96:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\models\RecipientMobileInfo.php";s:4:"line";i:91;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\controllers\RecipientController.php";s:4:"line";i:99;s:8:"function";s:19:"setNewRecipientInfo";s:5:"class";s:30:"api\models\RecipientMobileInfo";s:4:"type";s:2:"::";}}}i:33;a:5:{i:0;s:1972:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    t.typname AS data_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    array_to_string((select array_agg(enumlabel) from pg_enum where enumtypid=a.atttypid)::varchar[],',') as enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT join pg_constraint ct on ct.conrelid=c.oid and ct.contype='p'
+WHERE
+    a.attnum > 0 and t.typname != ''
+    and c.relname = 'recipient_mobile_heartbeat'
+    and d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1453733294.1330271;i:4;a:3:{i:0;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\models\RecipientMobileHeartbeat.php";s:4:"line";i:94;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\models\RecipientMobileHeartbeat.php";s:4:"line";i:78;s:8:"function";s:13:"setNewAuthKey";s:5:"class";s:35:"api\models\RecipientMobileHeartbeat";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\controllers\RecipientController.php";s:4:"line";i:102;s:8:"function";s:18:"setNewLoginSession";s:5:"class";s:35:"api\models\RecipientMobileHeartbeat";s:4:"type";s:2:"->";}}}i:36;a:5:{i:0;s:894:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='recipient_mobile_heartbeat'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1453733294.1800859;i:4;a:3:{i:0;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\models\RecipientMobileHeartbeat.php";s:4:"line";i:94;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\models\RecipientMobileHeartbeat.php";s:4:"line";i:78;s:8:"function";s:13:"setNewAuthKey";s:5:"class";s:35:"api\models\RecipientMobileHeartbeat";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\controllers\RecipientController.php";s:4:"line";i:102;s:8:"function";s:18:"setNewLoginSession";s:5:"class";s:35:"api\models\RecipientMobileHeartbeat";s:4:"type";s:2:"->";}}}i:39;a:5:{i:0;s:115:"INSERT INTO "recipient_mobile_heartbeat" ("auth_key") VALUES ('197e0d644a6c0d0c0ff48602470d17dd') RETURNING "index"";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1453733294.2259021;i:4;a:3:{i:0;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\models\RecipientMobileHeartbeat.php";s:4:"line";i:95;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\models\RecipientMobileHeartbeat.php";s:4:"line";i:78;s:8:"function";s:13:"setNewAuthKey";s:5:"class";s:35:"api\models\RecipientMobileHeartbeat";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\controllers\RecipientController.php";s:4:"line";i:102;s:8:"function";s:18:"setNewLoginSession";s:5:"class";s:35:"api\models\RecipientMobileHeartbeat";s:4:"type";s:2:"->";}}}i:42;a:5:{i:0;s:140:"UPDATE "recipient_mobile_heartbeat" SET "device_id"='1', "heartbeat_time"='2016-01-25 14:48:14', "recipient_mobile_index"=2 WHERE "index"=70";i:1;i:4;i:2;s:23:"yii\db\Command::execute";i:3;d:1453733294.2648611;i:4;a:2:{i:0;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\models\RecipientMobileHeartbeat.php";s:4:"line";i:82;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\controllers\RecipientController.php";s:4:"line";i:102;s:8:"function";s:18:"setNewLoginSession";s:5:"class";s:35:"api\models\RecipientMobileHeartbeat";s:4:"type";s:2:"->";}}}}}s:9:"profiling";a:3:{s:6:"memory";i:5157040;s:4:"time";d:0.60344409942626953;s:8:"messages";a:24:{i:11;a:5:{i:0;s:68:"Opening DB connection: pgsql:host=192.168.44.55;port=5432;dbname=sns";i:1;i:80;i:2;s:23:"yii\db\Connection::open";i:3;d:1453733293.7469289;i:4;a:3:{i:0;a:5:{s:4:"file";s:97:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\models\RecipientMobileLogin.php";s:4:"line";i:79;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:88:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\modules\Validation.php";s:4:"line";i:45;s:8:"function";s:17:"getUserByDeviceID";s:5:"class";s:31:"api\models\RecipientMobileLogin";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\controllers\RecipientController.php";s:4:"line";i:83;s:8:"function";s:21:"TheUserLoginCorrectly";s:5:"class";s:22:"api\modules\Validation";s:4:"type";s:2:"::";}}}i:12;a:5:{i:0;s:68:"Opening DB connection: pgsql:host=192.168.44.55;port=5432;dbname=sns";i:1;i:96;i:2;s:23:"yii\db\Connection::open";i:3;d:1453733293.812289;i:4;a:3:{i:0;a:5:{s:4:"file";s:97:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\models\RecipientMobileLogin.php";s:4:"line";i:79;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:88:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\modules\Validation.php";s:4:"line";i:45;s:8:"function";s:17:"getUserByDeviceID";s:5:"class";s:31:"api\models\RecipientMobileLogin";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\controllers\RecipientController.php";s:4:"line";i:83;s:8:"function";s:21:"TheUserLoginCorrectly";s:5:"class";s:22:"api\modules\Validation";s:4:"type";s:2:"::";}}}i:13;a:5:{i:0;s:58:"SELECT * FROM "recipient_mobile_login" WHERE "device_id"=1";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1453733293.8124411;i:4;a:3:{i:0;a:5:{s:4:"file";s:97:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\models\RecipientMobileLogin.php";s:4:"line";i:79;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:88:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\modules\Validation.php";s:4:"line";i:45;s:8:"function";s:17:"getUserByDeviceID";s:5:"class";s:31:"api\models\RecipientMobileLogin";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\controllers\RecipientController.php";s:4:"line";i:83;s:8:"function";s:21:"TheUserLoginCorrectly";s:5:"class";s:22:"api\modules\Validation";s:4:"type";s:2:"::";}}}i:14;a:5:{i:0;s:58:"SELECT * FROM "recipient_mobile_login" WHERE "device_id"=1";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1453733293.838098;i:4;a:3:{i:0;a:5:{s:4:"file";s:97:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\models\RecipientMobileLogin.php";s:4:"line";i:79;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:88:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\modules\Validation.php";s:4:"line";i:45;s:8:"function";s:17:"getUserByDeviceID";s:5:"class";s:31:"api\models\RecipientMobileLogin";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\controllers\RecipientController.php";s:4:"line";i:83;s:8:"function";s:21:"TheUserLoginCorrectly";s:5:"class";s:22:"api\modules\Validation";s:4:"type";s:2:"::";}}}i:16;a:5:{i:0;s:1968:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    t.typname AS data_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    array_to_string((select array_agg(enumlabel) from pg_enum where enumtypid=a.atttypid)::varchar[],',') as enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT join pg_constraint ct on ct.conrelid=c.oid and ct.contype='p'
+WHERE
+    a.attnum > 0 and t.typname != ''
+    and c.relname = 'recipient_mobile_login'
+    and d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1453733293.848628;i:4;a:3:{i:0;a:5:{s:4:"file";s:97:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\models\RecipientMobileLogin.php";s:4:"line";i:79;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:88:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\modules\Validation.php";s:4:"line";i:45;s:8:"function";s:17:"getUserByDeviceID";s:5:"class";s:31:"api\models\RecipientMobileLogin";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\controllers\RecipientController.php";s:4:"line";i:83;s:8:"function";s:21:"TheUserLoginCorrectly";s:5:"class";s:22:"api\modules\Validation";s:4:"type";s:2:"::";}}}i:17;a:5:{i:0;s:1968:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    t.typname AS data_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    array_to_string((select array_agg(enumlabel) from pg_enum where enumtypid=a.atttypid)::varchar[],',') as enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT join pg_constraint ct on ct.conrelid=c.oid and ct.contype='p'
+WHERE
+    a.attnum > 0 and t.typname != ''
+    and c.relname = 'recipient_mobile_login'
+    and d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1453733293.892247;i:4;a:3:{i:0;a:5:{s:4:"file";s:97:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\models\RecipientMobileLogin.php";s:4:"line";i:79;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:88:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\modules\Validation.php";s:4:"line";i:45;s:8:"function";s:17:"getUserByDeviceID";s:5:"class";s:31:"api\models\RecipientMobileLogin";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\controllers\RecipientController.php";s:4:"line";i:83;s:8:"function";s:21:"TheUserLoginCorrectly";s:5:"class";s:22:"api\modules\Validation";s:4:"type";s:2:"::";}}}i:19;a:5:{i:0;s:890:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='recipient_mobile_login'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1453733293.9032559;i:4;a:3:{i:0;a:5:{s:4:"file";s:97:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\models\RecipientMobileLogin.php";s:4:"line";i:79;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:88:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\modules\Validation.php";s:4:"line";i:45;s:8:"function";s:17:"getUserByDeviceID";s:5:"class";s:31:"api\models\RecipientMobileLogin";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\controllers\RecipientController.php";s:4:"line";i:83;s:8:"function";s:21:"TheUserLoginCorrectly";s:5:"class";s:22:"api\modules\Validation";s:4:"type";s:2:"::";}}}i:20;a:5:{i:0;s:890:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='recipient_mobile_login'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1453733293.9356551;i:4;a:3:{i:0;a:5:{s:4:"file";s:97:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\models\RecipientMobileLogin.php";s:4:"line";i:79;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:88:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\modules\Validation.php";s:4:"line";i:45;s:8:"function";s:17:"getUserByDeviceID";s:5:"class";s:31:"api\models\RecipientMobileLogin";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\controllers\RecipientController.php";s:4:"line";i:83;s:8:"function";s:21:"TheUserLoginCorrectly";s:5:"class";s:22:"api\modules\Validation";s:4:"type";s:2:"::";}}}i:22;a:5:{i:0;s:92:"SELECT * FROM "recipient_mobile_info" WHERE ("recipient_mobile_index"=2) AND ("info_type"=1)";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1453733293.954016;i:4;a:1:{i:0;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\controllers\RecipientController.php";s:4:"line";i:95;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:23;a:5:{i:0;s:92:"SELECT * FROM "recipient_mobile_info" WHERE ("recipient_mobile_index"=2) AND ("info_type"=1)";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1453733293.9877601;i:4;a:1:{i:0;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\controllers\RecipientController.php";s:4:"line";i:95;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:25;a:5:{i:0;s:1967:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    t.typname AS data_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    array_to_string((select array_agg(enumlabel) from pg_enum where enumtypid=a.atttypid)::varchar[],',') as enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT join pg_constraint ct on ct.conrelid=c.oid and ct.contype='p'
+WHERE
+    a.attnum > 0 and t.typname != ''
+    and c.relname = 'recipient_mobile_info'
+    and d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1453733293.9973681;i:4;a:1:{i:0;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\controllers\RecipientController.php";s:4:"line";i:95;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:26;a:5:{i:0;s:1967:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    t.typname AS data_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    array_to_string((select array_agg(enumlabel) from pg_enum where enumtypid=a.atttypid)::varchar[],',') as enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT join pg_constraint ct on ct.conrelid=c.oid and ct.contype='p'
+WHERE
+    a.attnum > 0 and t.typname != ''
+    and c.relname = 'recipient_mobile_info'
+    and d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1453733294.03038;i:4;a:1:{i:0;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\controllers\RecipientController.php";s:4:"line";i:95;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:28;a:5:{i:0;s:889:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='recipient_mobile_info'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1453733294.0404639;i:4;a:1:{i:0;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\controllers\RecipientController.php";s:4:"line";i:95;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:29;a:5:{i:0;s:889:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='recipient_mobile_info'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1453733294.0680289;i:4;a:1:{i:0;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\controllers\RecipientController.php";s:4:"line";i:95;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:31;a:5:{i:0;s:144:"INSERT INTO "recipient_mobile_info" ("recipient_mobile_index", "info_type", "occured_at") VALUES (2, 1, '2016-01-25 14:48:14') RETURNING "index"";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1453733294.084151;i:4;a:2:{i:0;a:5:{s:4:"file";s:96:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\models\RecipientMobileInfo.php";s:4:"line";i:91;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\controllers\RecipientController.php";s:4:"line";i:99;s:8:"function";s:19:"setNewRecipientInfo";s:5:"class";s:30:"api\models\RecipientMobileInfo";s:4:"type";s:2:"::";}}}i:32;a:5:{i:0;s:144:"INSERT INTO "recipient_mobile_info" ("recipient_mobile_index", "info_type", "occured_at") VALUES (2, 1, '2016-01-25 14:48:14') RETURNING "index"";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1453733294.11467;i:4;a:2:{i:0;a:5:{s:4:"file";s:96:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\models\RecipientMobileInfo.php";s:4:"line";i:91;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\controllers\RecipientController.php";s:4:"line";i:99;s:8:"function";s:19:"setNewRecipientInfo";s:5:"class";s:30:"api\models\RecipientMobileInfo";s:4:"type";s:2:"::";}}}i:34;a:5:{i:0;s:1972:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    t.typname AS data_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    array_to_string((select array_agg(enumlabel) from pg_enum where enumtypid=a.atttypid)::varchar[],',') as enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT join pg_constraint ct on ct.conrelid=c.oid and ct.contype='p'
+WHERE
+    a.attnum > 0 and t.typname != ''
+    and c.relname = 'recipient_mobile_heartbeat'
+    and d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1453733294.1332181;i:4;a:3:{i:0;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\models\RecipientMobileHeartbeat.php";s:4:"line";i:94;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\models\RecipientMobileHeartbeat.php";s:4:"line";i:78;s:8:"function";s:13:"setNewAuthKey";s:5:"class";s:35:"api\models\RecipientMobileHeartbeat";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\controllers\RecipientController.php";s:4:"line";i:102;s:8:"function";s:18:"setNewLoginSession";s:5:"class";s:35:"api\models\RecipientMobileHeartbeat";s:4:"type";s:2:"->";}}}i:35;a:5:{i:0;s:1972:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    t.typname AS data_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    array_to_string((select array_agg(enumlabel) from pg_enum where enumtypid=a.atttypid)::varchar[],',') as enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT join pg_constraint ct on ct.conrelid=c.oid and ct.contype='p'
+WHERE
+    a.attnum > 0 and t.typname != ''
+    and c.relname = 'recipient_mobile_heartbeat'
+    and d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1453733294.1698589;i:4;a:3:{i:0;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\models\RecipientMobileHeartbeat.php";s:4:"line";i:94;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\models\RecipientMobileHeartbeat.php";s:4:"line";i:78;s:8:"function";s:13:"setNewAuthKey";s:5:"class";s:35:"api\models\RecipientMobileHeartbeat";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\controllers\RecipientController.php";s:4:"line";i:102;s:8:"function";s:18:"setNewLoginSession";s:5:"class";s:35:"api\models\RecipientMobileHeartbeat";s:4:"type";s:2:"->";}}}i:37;a:5:{i:0;s:894:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='recipient_mobile_heartbeat'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1453733294.1802471;i:4;a:3:{i:0;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\models\RecipientMobileHeartbeat.php";s:4:"line";i:94;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\models\RecipientMobileHeartbeat.php";s:4:"line";i:78;s:8:"function";s:13:"setNewAuthKey";s:5:"class";s:35:"api\models\RecipientMobileHeartbeat";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\controllers\RecipientController.php";s:4:"line";i:102;s:8:"function";s:18:"setNewLoginSession";s:5:"class";s:35:"api\models\RecipientMobileHeartbeat";s:4:"type";s:2:"->";}}}i:38;a:5:{i:0;s:894:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='recipient_mobile_heartbeat'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1453733294.2135761;i:4;a:3:{i:0;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\models\RecipientMobileHeartbeat.php";s:4:"line";i:94;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\models\RecipientMobileHeartbeat.php";s:4:"line";i:78;s:8:"function";s:13:"setNewAuthKey";s:5:"class";s:35:"api\models\RecipientMobileHeartbeat";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\controllers\RecipientController.php";s:4:"line";i:102;s:8:"function";s:18:"setNewLoginSession";s:5:"class";s:35:"api\models\RecipientMobileHeartbeat";s:4:"type";s:2:"->";}}}i:40;a:5:{i:0;s:115:"INSERT INTO "recipient_mobile_heartbeat" ("auth_key") VALUES ('197e0d644a6c0d0c0ff48602470d17dd') RETURNING "index"";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1453733294.2260129;i:4;a:3:{i:0;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\models\RecipientMobileHeartbeat.php";s:4:"line";i:95;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\models\RecipientMobileHeartbeat.php";s:4:"line";i:78;s:8:"function";s:13:"setNewAuthKey";s:5:"class";s:35:"api\models\RecipientMobileHeartbeat";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\controllers\RecipientController.php";s:4:"line";i:102;s:8:"function";s:18:"setNewLoginSession";s:5:"class";s:35:"api\models\RecipientMobileHeartbeat";s:4:"type";s:2:"->";}}}i:41;a:5:{i:0;s:115:"INSERT INTO "recipient_mobile_heartbeat" ("auth_key") VALUES ('197e0d644a6c0d0c0ff48602470d17dd') RETURNING "index"";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1453733294.2520671;i:4;a:3:{i:0;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\models\RecipientMobileHeartbeat.php";s:4:"line";i:95;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\models\RecipientMobileHeartbeat.php";s:4:"line";i:78;s:8:"function";s:13:"setNewAuthKey";s:5:"class";s:35:"api\models\RecipientMobileHeartbeat";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\controllers\RecipientController.php";s:4:"line";i:102;s:8:"function";s:18:"setNewLoginSession";s:5:"class";s:35:"api\models\RecipientMobileHeartbeat";s:4:"type";s:2:"->";}}}i:43;a:5:{i:0;s:140:"UPDATE "recipient_mobile_heartbeat" SET "device_id"='1', "heartbeat_time"='2016-01-25 14:48:14', "recipient_mobile_index"=2 WHERE "index"=70";i:1;i:80;i:2;s:23:"yii\db\Command::execute";i:3;d:1453733294.2650139;i:4;a:2:{i:0;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\models\RecipientMobileHeartbeat.php";s:4:"line";i:82;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\controllers\RecipientController.php";s:4:"line";i:102;s:8:"function";s:18:"setNewLoginSession";s:5:"class";s:35:"api\models\RecipientMobileHeartbeat";s:4:"type";s:2:"->";}}}i:44;a:5:{i:0;s:140:"UPDATE "recipient_mobile_heartbeat" SET "device_id"='1', "heartbeat_time"='2016-01-25 14:48:14', "recipient_mobile_index"=2 WHERE "index"=70";i:1;i:96;i:2;s:23:"yii\db\Command::execute";i:3;d:1453733294.2918141;i:4;a:2:{i:0;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\models\RecipientMobileHeartbeat.php";s:4:"line";i:82;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\controllers\RecipientController.php";s:4:"line";i:102;s:8:"function";s:18:"setNewLoginSession";s:5:"class";s:35:"api\models\RecipientMobileHeartbeat";s:4:"type";s:2:"->";}}}}}s:2:"db";a:1:{s:8:"messages";a:22:{i:13;a:5:{i:0;s:58:"SELECT * FROM "recipient_mobile_login" WHERE "device_id"=1";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1453733293.8124411;i:4;a:3:{i:0;a:5:{s:4:"file";s:97:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\models\RecipientMobileLogin.php";s:4:"line";i:79;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:88:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\modules\Validation.php";s:4:"line";i:45;s:8:"function";s:17:"getUserByDeviceID";s:5:"class";s:31:"api\models\RecipientMobileLogin";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\controllers\RecipientController.php";s:4:"line";i:83;s:8:"function";s:21:"TheUserLoginCorrectly";s:5:"class";s:22:"api\modules\Validation";s:4:"type";s:2:"::";}}}i:14;a:5:{i:0;s:58:"SELECT * FROM "recipient_mobile_login" WHERE "device_id"=1";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1453733293.838098;i:4;a:3:{i:0;a:5:{s:4:"file";s:97:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\models\RecipientMobileLogin.php";s:4:"line";i:79;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:88:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\modules\Validation.php";s:4:"line";i:45;s:8:"function";s:17:"getUserByDeviceID";s:5:"class";s:31:"api\models\RecipientMobileLogin";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\controllers\RecipientController.php";s:4:"line";i:83;s:8:"function";s:21:"TheUserLoginCorrectly";s:5:"class";s:22:"api\modules\Validation";s:4:"type";s:2:"::";}}}i:16;a:5:{i:0;s:1968:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    t.typname AS data_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    array_to_string((select array_agg(enumlabel) from pg_enum where enumtypid=a.atttypid)::varchar[],',') as enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT join pg_constraint ct on ct.conrelid=c.oid and ct.contype='p'
+WHERE
+    a.attnum > 0 and t.typname != ''
+    and c.relname = 'recipient_mobile_login'
+    and d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1453733293.848628;i:4;a:3:{i:0;a:5:{s:4:"file";s:97:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\models\RecipientMobileLogin.php";s:4:"line";i:79;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:88:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\modules\Validation.php";s:4:"line";i:45;s:8:"function";s:17:"getUserByDeviceID";s:5:"class";s:31:"api\models\RecipientMobileLogin";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\controllers\RecipientController.php";s:4:"line";i:83;s:8:"function";s:21:"TheUserLoginCorrectly";s:5:"class";s:22:"api\modules\Validation";s:4:"type";s:2:"::";}}}i:17;a:5:{i:0;s:1968:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    t.typname AS data_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    array_to_string((select array_agg(enumlabel) from pg_enum where enumtypid=a.atttypid)::varchar[],',') as enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT join pg_constraint ct on ct.conrelid=c.oid and ct.contype='p'
+WHERE
+    a.attnum > 0 and t.typname != ''
+    and c.relname = 'recipient_mobile_login'
+    and d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1453733293.892247;i:4;a:3:{i:0;a:5:{s:4:"file";s:97:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\models\RecipientMobileLogin.php";s:4:"line";i:79;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:88:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\modules\Validation.php";s:4:"line";i:45;s:8:"function";s:17:"getUserByDeviceID";s:5:"class";s:31:"api\models\RecipientMobileLogin";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\controllers\RecipientController.php";s:4:"line";i:83;s:8:"function";s:21:"TheUserLoginCorrectly";s:5:"class";s:22:"api\modules\Validation";s:4:"type";s:2:"::";}}}i:19;a:5:{i:0;s:890:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='recipient_mobile_login'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1453733293.9032559;i:4;a:3:{i:0;a:5:{s:4:"file";s:97:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\models\RecipientMobileLogin.php";s:4:"line";i:79;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:88:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\modules\Validation.php";s:4:"line";i:45;s:8:"function";s:17:"getUserByDeviceID";s:5:"class";s:31:"api\models\RecipientMobileLogin";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\controllers\RecipientController.php";s:4:"line";i:83;s:8:"function";s:21:"TheUserLoginCorrectly";s:5:"class";s:22:"api\modules\Validation";s:4:"type";s:2:"::";}}}i:20;a:5:{i:0;s:890:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='recipient_mobile_login'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1453733293.9356551;i:4;a:3:{i:0;a:5:{s:4:"file";s:97:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\models\RecipientMobileLogin.php";s:4:"line";i:79;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}i:1;a:5:{s:4:"file";s:88:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\modules\Validation.php";s:4:"line";i:45;s:8:"function";s:17:"getUserByDeviceID";s:5:"class";s:31:"api\models\RecipientMobileLogin";s:4:"type";s:2:"::";}i:2;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\controllers\RecipientController.php";s:4:"line";i:83;s:8:"function";s:21:"TheUserLoginCorrectly";s:5:"class";s:22:"api\modules\Validation";s:4:"type";s:2:"::";}}}i:22;a:5:{i:0;s:92:"SELECT * FROM "recipient_mobile_info" WHERE ("recipient_mobile_index"=2) AND ("info_type"=1)";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1453733293.954016;i:4;a:1:{i:0;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\controllers\RecipientController.php";s:4:"line";i:95;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:23;a:5:{i:0;s:92:"SELECT * FROM "recipient_mobile_info" WHERE ("recipient_mobile_index"=2) AND ("info_type"=1)";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1453733293.9877601;i:4;a:1:{i:0;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\controllers\RecipientController.php";s:4:"line";i:95;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:25;a:5:{i:0;s:1967:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    t.typname AS data_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    array_to_string((select array_agg(enumlabel) from pg_enum where enumtypid=a.atttypid)::varchar[],',') as enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT join pg_constraint ct on ct.conrelid=c.oid and ct.contype='p'
+WHERE
+    a.attnum > 0 and t.typname != ''
+    and c.relname = 'recipient_mobile_info'
+    and d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1453733293.9973681;i:4;a:1:{i:0;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\controllers\RecipientController.php";s:4:"line";i:95;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:26;a:5:{i:0;s:1967:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    t.typname AS data_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    array_to_string((select array_agg(enumlabel) from pg_enum where enumtypid=a.atttypid)::varchar[],',') as enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT join pg_constraint ct on ct.conrelid=c.oid and ct.contype='p'
+WHERE
+    a.attnum > 0 and t.typname != ''
+    and c.relname = 'recipient_mobile_info'
+    and d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1453733294.03038;i:4;a:1:{i:0;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\controllers\RecipientController.php";s:4:"line";i:95;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:28;a:5:{i:0;s:889:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='recipient_mobile_info'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1453733294.0404639;i:4;a:1:{i:0;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\controllers\RecipientController.php";s:4:"line";i:95;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:29;a:5:{i:0;s:889:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='recipient_mobile_info'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1453733294.0680289;i:4;a:1:{i:0;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\controllers\RecipientController.php";s:4:"line";i:95;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:31;a:5:{i:0;s:144:"INSERT INTO "recipient_mobile_info" ("recipient_mobile_index", "info_type", "occured_at") VALUES (2, 1, '2016-01-25 14:48:14') RETURNING "index"";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1453733294.084151;i:4;a:2:{i:0;a:5:{s:4:"file";s:96:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\models\RecipientMobileInfo.php";s:4:"line";i:91;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\controllers\RecipientController.php";s:4:"line";i:99;s:8:"function";s:19:"setNewRecipientInfo";s:5:"class";s:30:"api\models\RecipientMobileInfo";s:4:"type";s:2:"::";}}}i:32;a:5:{i:0;s:144:"INSERT INTO "recipient_mobile_info" ("recipient_mobile_index", "info_type", "occured_at") VALUES (2, 1, '2016-01-25 14:48:14') RETURNING "index"";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1453733294.11467;i:4;a:2:{i:0;a:5:{s:4:"file";s:96:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\models\RecipientMobileInfo.php";s:4:"line";i:91;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\controllers\RecipientController.php";s:4:"line";i:99;s:8:"function";s:19:"setNewRecipientInfo";s:5:"class";s:30:"api\models\RecipientMobileInfo";s:4:"type";s:2:"::";}}}i:34;a:5:{i:0;s:1972:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    t.typname AS data_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    array_to_string((select array_agg(enumlabel) from pg_enum where enumtypid=a.atttypid)::varchar[],',') as enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT join pg_constraint ct on ct.conrelid=c.oid and ct.contype='p'
+WHERE
+    a.attnum > 0 and t.typname != ''
+    and c.relname = 'recipient_mobile_heartbeat'
+    and d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1453733294.1332181;i:4;a:3:{i:0;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\models\RecipientMobileHeartbeat.php";s:4:"line";i:94;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\models\RecipientMobileHeartbeat.php";s:4:"line";i:78;s:8:"function";s:13:"setNewAuthKey";s:5:"class";s:35:"api\models\RecipientMobileHeartbeat";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\controllers\RecipientController.php";s:4:"line";i:102;s:8:"function";s:18:"setNewLoginSession";s:5:"class";s:35:"api\models\RecipientMobileHeartbeat";s:4:"type";s:2:"->";}}}i:35;a:5:{i:0;s:1972:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    t.typname AS data_type,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false) AS is_autoinc,
+    array_to_string((select array_agg(enumlabel) from pg_enum where enumtypid=a.atttypid)::varchar[],',') as enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT join pg_constraint ct on ct.conrelid=c.oid and ct.contype='p'
+WHERE
+    a.attnum > 0 and t.typname != ''
+    and c.relname = 'recipient_mobile_heartbeat'
+    and d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1453733294.1698589;i:4;a:3:{i:0;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\models\RecipientMobileHeartbeat.php";s:4:"line";i:94;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\models\RecipientMobileHeartbeat.php";s:4:"line";i:78;s:8:"function";s:13:"setNewAuthKey";s:5:"class";s:35:"api\models\RecipientMobileHeartbeat";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\controllers\RecipientController.php";s:4:"line";i:102;s:8:"function";s:18:"setNewLoginSession";s:5:"class";s:35:"api\models\RecipientMobileHeartbeat";s:4:"type";s:2:"->";}}}i:37;a:5:{i:0;s:894:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='recipient_mobile_heartbeat'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1453733294.1802471;i:4;a:3:{i:0;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\models\RecipientMobileHeartbeat.php";s:4:"line";i:94;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\models\RecipientMobileHeartbeat.php";s:4:"line";i:78;s:8:"function";s:13:"setNewAuthKey";s:5:"class";s:35:"api\models\RecipientMobileHeartbeat";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\controllers\RecipientController.php";s:4:"line";i:102;s:8:"function";s:18:"setNewLoginSession";s:5:"class";s:35:"api\models\RecipientMobileHeartbeat";s:4:"type";s:2:"->";}}}i:38;a:5:{i:0;s:894:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='recipient_mobile_heartbeat'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1453733294.2135761;i:4;a:3:{i:0;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\models\RecipientMobileHeartbeat.php";s:4:"line";i:94;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\models\RecipientMobileHeartbeat.php";s:4:"line";i:78;s:8:"function";s:13:"setNewAuthKey";s:5:"class";s:35:"api\models\RecipientMobileHeartbeat";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\controllers\RecipientController.php";s:4:"line";i:102;s:8:"function";s:18:"setNewLoginSession";s:5:"class";s:35:"api\models\RecipientMobileHeartbeat";s:4:"type";s:2:"->";}}}i:40;a:5:{i:0;s:115:"INSERT INTO "recipient_mobile_heartbeat" ("auth_key") VALUES ('197e0d644a6c0d0c0ff48602470d17dd') RETURNING "index"";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1453733294.2260129;i:4;a:3:{i:0;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\models\RecipientMobileHeartbeat.php";s:4:"line";i:95;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\models\RecipientMobileHeartbeat.php";s:4:"line";i:78;s:8:"function";s:13:"setNewAuthKey";s:5:"class";s:35:"api\models\RecipientMobileHeartbeat";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\controllers\RecipientController.php";s:4:"line";i:102;s:8:"function";s:18:"setNewLoginSession";s:5:"class";s:35:"api\models\RecipientMobileHeartbeat";s:4:"type";s:2:"->";}}}i:41;a:5:{i:0;s:115:"INSERT INTO "recipient_mobile_heartbeat" ("auth_key") VALUES ('197e0d644a6c0d0c0ff48602470d17dd') RETURNING "index"";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1453733294.2520671;i:4;a:3:{i:0;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\models\RecipientMobileHeartbeat.php";s:4:"line";i:95;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\models\RecipientMobileHeartbeat.php";s:4:"line";i:78;s:8:"function";s:13:"setNewAuthKey";s:5:"class";s:35:"api\models\RecipientMobileHeartbeat";s:4:"type";s:2:"->";}i:2;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\controllers\RecipientController.php";s:4:"line";i:102;s:8:"function";s:18:"setNewLoginSession";s:5:"class";s:35:"api\models\RecipientMobileHeartbeat";s:4:"type";s:2:"->";}}}i:43;a:5:{i:0;s:140:"UPDATE "recipient_mobile_heartbeat" SET "device_id"='1', "heartbeat_time"='2016-01-25 14:48:14', "recipient_mobile_index"=2 WHERE "index"=70";i:1;i:80;i:2;s:23:"yii\db\Command::execute";i:3;d:1453733294.2650139;i:4;a:2:{i:0;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\models\RecipientMobileHeartbeat.php";s:4:"line";i:82;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\controllers\RecipientController.php";s:4:"line";i:102;s:8:"function";s:18:"setNewLoginSession";s:5:"class";s:35:"api\models\RecipientMobileHeartbeat";s:4:"type";s:2:"->";}}}i:44;a:5:{i:0;s:140:"UPDATE "recipient_mobile_heartbeat" SET "device_id"='1', "heartbeat_time"='2016-01-25 14:48:14', "recipient_mobile_index"=2 WHERE "index"=70";i:1;i:96;i:2;s:23:"yii\db\Command::execute";i:3;d:1453733294.2918141;i:4;a:2:{i:0;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\models\RecipientMobileHeartbeat.php";s:4:"line";i:82;s:8:"function";s:4:"save";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:101:"C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-www\Highnet\api\controllers\RecipientController.php";s:4:"line";i:102;s:8:"function";s:18:"setNewLoginSession";s:5:"class";s:35:"api\models\RecipientMobileHeartbeat";s:4:"type";s:2:"->";}}}}}s:6:"assets";a:0:{}s:4:"mail";a:0:{}s:7:"summary";a:9:{s:3:"tag";s:13:"56a635adb097a";s:3:"url";s:67:"http://192.168.37.10/Highnet/api/web/index.php/recipient/user-login";s:4:"ajax";i:0;s:6:"method";s:4:"POST";s:2:"ip";s:13:"192.168.37.18";s:4:"time";i:1453733294;s:10:"statusCode";i:200;s:8:"sqlCount";i:11;s:9:"mailCount";i:0;}}

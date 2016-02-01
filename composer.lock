@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4280ccd4487a1d8f262b45fffc96ba1d",
-    "content-hash": "48feec6dc26f55a1cec384489c6559d3",
+    "hash": "50a7549c53010f8fd1df3220b783a24e",
+    "content-hash": "025c40f150257b7e945a322b077317a2",
     "packages": [
         {
             "name": "abhi1693/yii2-enum",
@@ -411,6 +411,42 @@
                 "mailer"
             ],
             "time": "2015-06-06 14:19:39"
+        },
+        {
+            "name": "vertigolabs/overcast",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jaimz22/Overcast.git",
+                "reference": "35cefe6a6c4725946ca272660cd49623ffff052f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jaimz22/Overcast/zipball/35cefe6a6c4725946ca272660cd49623ffff052f",
+                "reference": "35cefe6a6c4725946ca272660cd49623ffff052f",
+                "shasum": ""
+            },
+            "suggest": {
+                "guzzlehttp/guzzle": "Allows for better handling of http connections to Forecast.io webservice"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "VertigoLabs\\Overcast\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "James Murray",
+                    "email": "jaimz@vertigolabs.org"
+                }
+            ],
+            "description": "An easy to use wrapper for the Forecast.io API",
+            "time": "2016-01-17 15:49:35"
         },
         {
             "name": "yiicod/yii2-auth",
@@ -1028,7 +1064,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "vertigolabs/overcast": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

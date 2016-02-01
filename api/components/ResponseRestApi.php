@@ -12,13 +12,13 @@ namespace api\components;
 class ResponseRestApi {
 
     public static function echoErrorResponse($data){
-//        self::setHeader(400);
-        echo json_encode(array('error_code' => 400, 'errors' => $data), JSON_PRETTY_PRINT);
+        self::setHeader(400);
+        echo json_encode(['success' => false] + $data, JSON_PRETTY_PRINT);
     }
 
     public static function echoSuccessResponse($data){
-//        self::setHeader(200);
-        echo json_encode(array('data' => $data), JSON_PRETTY_PRINT);
+        self::setHeader(200);
+        echo json_encode(['success' => true] + $data, JSON_PRETTY_PRINT);
     }
 
 //    public static function echoErrorResponse($function, $data){

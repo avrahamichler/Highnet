@@ -20,7 +20,8 @@
         "yiisoft/yii2-swiftmailer": "*",
         "yiicod/yii2-base": "*",
         "yiicod/yii2-auth": "*",
-        "abhi1693/yii2-enum": "1.0.0"
+        "abhi1693/yii2-enum": "1.0.0",
+        "vertigolabs/overcast": "dev-master"
     },
     "require-dev": {
         "yiisoft/yii2-codeception": "*",

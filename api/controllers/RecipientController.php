@@ -6,6 +6,7 @@ use api\components\Utils;
 use api\models\RecipientMobileHeartbeat;
 use api\models\RecipientMobileInfo;
 use api\models\RecipientMobileLogin;
+use api\models\Recipients;
 use api\modules\ApiParams;
 use api\modules\InfoTypes;
 use api\modules\Validation;
@@ -27,12 +28,13 @@ class RecipientController extends Controller
             'verbs' => [
                 'class' => VerbFilter::className(),
                 'actions' => [
-                    'a' =>['get'],
+                    'a' =>['get', 'post'],
                     'user-login' => ['post'],
                     'user-restore-password' => ['post'],
                     'user-status' =>['post'],
                     'change-server-info' => ['post'],
-                    'change-profile-info' => ['post']
+                    'change-profile-info' => ['post'],
+                    'user-logout' => ['post']
                 ],
             ]
         ];
@@ -59,7 +61,14 @@ class RecipientController extends Controller
 
     public function actionA()
     {
-        echo "a";
+//        $model = new RecipientMobileHeartbeat();
+//        $last = $model->find(['device_id' => 1])
+//            ->where(['not',['heartbeat_time'=>null]])
+//            ->orderBy(['heartbeat_time'=>SORT_DESC])
+//            ->asArray()
+//            ->one();
+//        var_dump($last);
+        var_dump($_FILES);
     }
 
     /*
@@ -76,7 +85,7 @@ class RecipientController extends Controller
         if($model->errors)
         {
             RecipientMobileInfo::setNewRecipientInfo($model, InfoTypes::BAD_LOGIN, $params);
-            Utils::echoErrorResponse($model->errors);
+            Utils::echoErrorResponse($model->getFirstErrors());
         }
         else
         {
@@ -104,6 +113,33 @@ class RecipientController extends Controller
         }
     }
 
+    public function actionUserLogout()
+    {
+
+        $params = ApiParams::getPostJsonParams();
+
+        $model = Validation::checkUserAuthorization($params);
+
+        if($model->errors)
+        {
+            Utils::echoErrorResponse($model->getFirstErrors());
+        }
+        else
+        {
+            RecipientMobileInfo::setNewRecipientInfo($model,InfoTypes::LOGOUT, $params);
+            $heartbeat = new RecipientMobileHeartbeat();
+            $heartbeat = $heartbeat->logOut($model);
+            if($heartbeat->errors)
+            {
+                Utils::echoErrorResponse($heartbeat->errors);
+            }
+            else
+            {
+                 Utils::echoSuccessResponse("logout");
+            }
+        }
+    }
+
 
 
 
@@ -115,7 +151,7 @@ class RecipientController extends Controller
 
         if ($model->errors)
         {
-            Utils::echoErrorResponse($model->errors);
+            Utils::echoErrorResponse($model->getFirstErrors());
         }
         else
         {
@@ -125,7 +161,7 @@ class RecipientController extends Controller
             }
             else
             {
-                $good_answer = $model->checkAnswer($params[RecipientMobileLogin::SECURITY_QUESTION], $params[RecipientMobileLogin::SECURITY_ANSWER]);
+                $good_answer = $model->checkAnswer($params[ApiParams::SECURITY_QUESTION], $params[ApiParams::SECURITY_QUESTION_ANSWER]);
                 if(!$good_answer)
                 {
                     Utils::echoErrorResponse(["error" =>"Wrong security question or answer"]);
@@ -149,11 +185,12 @@ class RecipientController extends Controller
 
         if ($model->errors)
         {
-            Utils::echoErrorResponse($model->errors);
+            Utils::echoErrorResponse($model->getFirstErrors());
         }
         else
         {
             $model = RecipientMobileLogin::findOne([RecipientMobileLogin::INDEX => $model->recipient_mobile_index]);
+            $name = $this->getRecipientName($model);
             $setting = RecipientMobileSetting::findOne([RecipientMobileSetting::RECIPIENT_MOBILE_INDEX => $model->index]);
             $response =
                 [
@@ -165,8 +202,8 @@ class RecipientController extends Controller
                         ],
                     "profile" =>
                         [
-                            "code" => $model->code,
-                            "name" => $model->name,
+                            "code" => $model->recipient_code,
+                            "name" => $name,
                             "unlockCode" => $setting->unlock_code,
                             "isLocation" => $setting->location_support,
                             "picture" => $setting->picture_file
@@ -184,23 +221,24 @@ class RecipientController extends Controller
         }
     }
 
-    public function changeServerInfo()
+    public function actionChangeServerInfo()
     {
         $params = ApiParams::getPostJsonParams();
 
-        $model = Validation::checkParams($params, ApiParams::CHANGE_SERVER_PARAMS);
+        $model = Validation::checkParams($params, ApiParams::$CHANGE_SERVER_PARAMS);
 
         if ($model->errors)
         {
-            Utils::echoErrorResponse($model->errors);
+            Utils::echoErrorResponse($model->getFirstErrors());
         }
         else
         {
-            $setting = RecipientMobileSetting::findOne(['recipient_mobile_index' => $model->index]);
+            $model = RecipientMobileLogin::findOne([RecipientMobileLogin::INDEX => $model->recipient_mobile_index]);
+            $setting = RecipientMobileSetting::findOne([RecipientMobileSetting::RECIPIENT_MOBILE_INDEX => $model->index]);
 
-            $setting->server = $params['serverName'];
-            $setting->backup_server = $params['backupServer'];
-            $setting->timeout_time = $params['timeOut'];
+            $setting->server = $params[ApiParams::SERVER_NAME];
+            $setting->backup_server = $params[ApiParams::BACKUP_SERVER];
+            $setting->timeout_time = $params[ApiParams::TIME_OUT];
 
             if(!$setting->save())
             {
@@ -215,31 +253,33 @@ class RecipientController extends Controller
         }
     }
 
-    public function changeProfileInfo()
+    public function actionChangeProfileInfo()
     {
         $params = ApiParams::getPostJsonParams();
 
-        $required_params = ['userLogin', 'deviceID', 'authKey', 'userName', 'password', 'unlockCode', 'isLocation'];
-
-        $params_to_check = ['userLogin', 'authKey'];
-
-        $model = Validation::checkUserParams($params, $required_params, $params_to_check);
+        $model = Validation::checkParams($params, ApiParams::$CHANGE_PROFILE_PARAMS);
 
         if ($model->errors)
         {
-            Utils::echoErrorResponse($model->errors);
+            Utils::echoErrorResponse($model->getFirstErrors());
         }
         else
         {
-            $setting = RecipientMobileSetting::findOne(['recipient_mobile_index' => $model->index]);
+            $model = RecipientMobileLogin::findOne([RecipientMobileLogin::INDEX => $model->recipient_mobile_index]);
+            $setting = RecipientMobileSetting::findOne([RecipientMobileSetting::RECIPIENT_MOBILE_INDEX => $model->index]);
+            $recipient = Recipients::find()
+                ->where(['code' => $model->recipient_code])
+                ->one();
 
-            $model->recipient_code = $params['userName'];
-            $model->mobile_password = $params['password'];
+            $recipient->name = $params[ApiParams::USER_NAME];
 
-            $setting->unlock_code = $params['unlockCode'];
-            $setting->location_support = $params['isLocation'];
+            $model->recipient_code = $params[ApiParams::USER_CODE];
+            $model->mobile_password = $params[ApiParams::USER_PASSWORD];
 
-            if(!$setting->save() || !$model->save())
+            $setting->unlock_code = $params[ApiParams::UNLOCK_CODE];
+            $setting->location_support = $params[ApiParams::IS_LOCATION];
+
+            if(!$setting->save() || !$model->save() || !$recipient->save())
             {
                 Utils::echoErrorResponse("something went wrong with the server, please try again later");
             }
@@ -252,8 +292,22 @@ class RecipientController extends Controller
         }
     }
 
+    public function actionSaveUserPicture()
+    {
+
+        if(!isset($_FILES))
+        {
+            Utils::echoErrorResponse(['file' =>"not send any file"]);
+        }
+        else
+        {
+
+        }
+    }
+
     private function userJson($model, $setting)
     {
+        $name = $this->getRecipientName($model);
         $response =
             [
                 "server" =>
@@ -264,14 +318,22 @@ class RecipientController extends Controller
                     ],
                 "profile" =>
                     [
-                        "code" => $model->code,
-                        "name" => $model->name,
+                        "code" => $model->recipient_code,
+                        "name" => $name,
                         "unlockCode" => $setting->unlock_code,
                         "isLocation" => $setting->location_support,
                         "picture" => $setting->picture_file
                     ]
             ];
         return $response;
+    }
+
+    public function getRecipientName($model)
+    {
+        $recipient = Recipients::find()
+            ->where(['code' => $model->recipient_code])
+            ->one();
+        return $recipient->name;
     }
 
 

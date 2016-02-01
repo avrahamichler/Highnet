@@ -33,11 +33,21 @@ class ApiParams
     const POS_LNG = 'pos_lng';
     const NOTE = 'note';
     const LAST_LOGIN = "lastLogin";
+    const USER_NAME = 'userName';
+    const CMSG_OID = "cmsgOID";
+    const ANSWER = "answer";
 
-    public static $REQUIRED_LOGIN_PARAMS = [self::USER_CODE, self::USER_PASSWORD, self::DEVICE_ID, self::PHONE_NUMBER];
+    public static $REQUIRED_LOGIN_PARAMS = [self::USER_CODE, self::USER_PASSWORD, self::DEVICE_ID];
     public static $REQUIRED_RESTORE_PASSWORD_PARAMS = [self::USER_CODE, self::DEVICE_ID, self::SECURITY_QUESTION, self::SECURITY_QUESTION_ANSWER];
     public static $AUTHORIZATION_PARAMS = [self::DEVICE_ID, self::AUTH_KEY];
     public static $CHANGE_SERVER_PARAMS = [self::USER_CODE, self::DEVICE_ID, self::AUTH_KEY, self::SERVER_NAME, self::BACKUP_SERVER, self::TIME_OUT];
+    public static $CHANGE_PROFILE_PARAMS = [self::USER_CODE, self::DEVICE_ID, self::AUTH_KEY, self::USER_NAME, self::USER_PASSWORD, self::UNLOCK_CODE, self::IS_LOCATION];
+    public static $SAVE_USER_PICTURE = [self::DEVICE_ID, self::AUTH_KEY];
+
+    public static $GET_ALERT_INFO_PARAMS = [self::DEVICE_ID, self::AUTH_KEY, self::CMSG_OID];
+    public static $ACK_ALERT_PARAMS = [self::DEVICE_ID, self::AUTH_KEY, self::CMSG_OID, self::ANSWER];
+
+    public static $HEARTBEAT_PARAMS = [self::DEVICE_ID, self::AUTH_KEY, ];
 
 
     private static function allTheRequiredParametersAre($parms, $required_parm)

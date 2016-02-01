@@ -36,6 +36,7 @@ class RecipientMobileHeartbeat extends ActiveRecord
 
 
 
+
     /**
      * @inheritdoc
      */
@@ -85,10 +86,7 @@ class RecipientMobileHeartbeat extends ActiveRecord
         return $this;
     }
 
-    public static function setNewSession($model)
-    {
 
-    }
     private function setNewAuthKey()
     {
         $bytes = openssl_random_pseudo_bytes(16, $cstrong);
@@ -104,11 +102,36 @@ class RecipientMobileHeartbeat extends ActiveRecord
             return false;
         }
     }
-
-
-
-    private function getUserByDeviceId($device_id)
+    /* @var $model RecipientMobileHeartbeat */
+    public function checkAuthorization($auth_key)
     {
-        return self::findOne([self::DEVICE_ID => $device_id]);
+        return $auth_key == $this->auth_key;
     }
+
+
+    public function getUserByDeviceId($device_id)
+    {
+        $model =  self::find([self::DEVICE_ID => $device_id])
+            ->orderBy(['heartbeat_time'=>SORT_DESC])
+            ->where(['not',['heartbeat_time'=>null]])
+            ->one();
+//        var_dump($model);
+        return $model;
+    }
+
+    /* @var $model RecipientMobileHeartbeat */
+    public function logOut($model)
+    {
+        $this->auth_key = $this->setNewAuthKey();
+        $this->device_id = $model->device_id;
+        $this->heartbeat_time = Utils::getCurrentTime();
+        $this->recipient_mobile_index = $model->recipient_mobile_index;
+        if(!$this->save())
+        {
+            $this->addError(self::AUTH_KEY, $error = "c'not save new session");
+        }
+        return $this;
+    }
+
+
 }

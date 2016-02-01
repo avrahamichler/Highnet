@@ -18,5 +18,6 @@ return array(
     'yii\\' => array($vendorDir . '/yiisoft/yii2'),
     'cebe\\markdown\\' => array($vendorDir . '/cebe/markdown'),
     'abhimanyu\\enum\\' => array($vendorDir . '/abhi1693/yii2-enum'),
+    'VertigoLabs\\Overcast\\' => array($vendorDir . '/vertigolabs/overcast/src'),
     'Faker\\' => array($vendorDir . '/fzaninotto/faker/src/Faker'),
 );
